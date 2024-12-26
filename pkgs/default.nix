@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 let
   plugins = {
@@ -43,3 +43,8 @@ let
     };
 in
 pkgs.lib.mapAttrs (name: buildInfo: mkPlugin name buildInfo) plugins
+// rec {
+  wp-theme-twentyten-ken = pkgs.callPackage ./wp-theme-twentyten-ken {
+    inherit (inputs) wp-main;
+  };
+}

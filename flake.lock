@@ -95,7 +95,24 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "pre-commit-hooks": "pre-commit-hooks"
+        "pre-commit-hooks": "pre-commit-hooks",
+        "wp-main": "wp-main"
+      }
+    },
+    "wp-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1735151483,
+        "narHash": "sha256-UIm7/a1RKg3JqKMoIANpWJCtIgtFPOFTvRYcER5xf78=",
+        "owner": "WordPress",
+        "repo": "WordPress",
+        "rev": "767dea88eb3bdb3fefb0bd9a552bb0d3ded2b14f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WordPress",
+        "repo": "WordPress",
+        "type": "github"
       }
     }
   },

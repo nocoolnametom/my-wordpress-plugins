@@ -11,12 +11,19 @@
       url = "github:cachix/git-hooks.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # Wordpress Themes and Plugins
+    wp-main = {
+      url = "github:WordPress/WordPress";
+      flake = false;
+    };
   };
 
   outputs =
     {
       self,
       nixpkgs,
+      wp-main,
       ...
     }@inputs:
     let
