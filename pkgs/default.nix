@@ -5,8 +5,8 @@ let
     # To get a hash run:
     # nix-prefetch-url --unpack https://downloads.wordpress.org/plugins/<name>.<version>.zip
     classic-editor = {
-      version = "1.6.5";
-      sha256 = "0rcsa7j31qs2xm098kg6kijyl0xff55w1bxddy0gxrwxbmsrjx0q";
+      version = "1.6.7";
+      sha256 = "0fs60rdkbddijxga1zn7vlpcmnmvwrdgfvn0wm6y4cxg2cqn1987";
     };
     column-shortcodes = {
       version = "1.0.1";
@@ -18,12 +18,12 @@ let
       sha256 = "0aghic2mxljbwir35rvgbz3s0zwys4844svjnmlpad2l8viwvabf";
     };
     youtube-embed-plus = {
-      version = "14.2.1.2";
-      sha256 = "0lgcj85nbdf1145igs0bsxng1f8mfb72ij8za2yvcp3xj3v7zg2s";
+      version = "14.2.1.3";
+      sha256 = "13wzxnp3wkw3p2nrqbjqvd9qn4g9dfzpmfzxps80sz2ljj214ar6";
     };
     wpdatatables = {
-      version = "3.4.2.30";
-      sha256 = "0rfzgrsxn0zvwjg67qnbg9iqw2f35i1235csnh3495020l63cjs9";
+      version = "3.4.2.35";
+      sha256 = "1h5iv3wz0l8a9h091yia3syhl0nsb77xpldi8cnvb82ica5wfmxr";
     };
   };
   mkPlugin =
