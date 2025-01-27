@@ -22,8 +22,8 @@ let
       sha256 = "13wzxnp3wkw3p2nrqbjqvd9qn4g9dfzpmfzxps80sz2ljj214ar6";
     };
     wpdatatables = {
-      version = "3.4.2.35";
-      sha256 = "1h5iv3wz0l8a9h091yia3syhl0nsb77xpldi8cnvb82ica5wfmxr";
+      version = "3.4.2.37";
+      sha256 = "031rvkahda1czi6gl0wihzakn3jx74gm45r64kvsmbxfkmf6mh42";
     };
   };
   mkPlugin =
