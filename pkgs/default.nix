@@ -25,6 +25,10 @@ let
       version = "3.4.2.37";
       sha256 = "031rvkahda1czi6gl0wihzakn3jx74gm45r64kvsmbxfkmf6mh42";
     };
+    akismet = {
+      version = "5.3.3";
+      sha256 = "0lidw16nw5lp0f1xijfaxw168av0j0ikwxwxj905ar46a87r5s36";
+    };
   };
   mkPlugin =
     pluginName:
